@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T21:14:45.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="vx6GjBkU3AbWFmH6BzFV" version="14.8.4" type="github"><diagram id="RrS9KNd53PsVYX24TNLM" name="Page-1">ddHBDoMgDADQr+GOMM3uzm0XTx52JtIJCVqDLLp9/TTgHHE7UV4LJYXwvJ0uVvSqRAmGMConwk+EMUazbF4WeXpJkvTgpbFaBtug0i8ISIM+tIQhKnSIxuk+xhq7DmoXmbAWx7jsjibu2osGdlDVwuz1pqVTXo8p3fwKulFr54SGTCvW4gCDEhLHL+IF4blFdD5qpxzMMr11Lv7c+U/28zALnftxYA62u+dN9EW8eAM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-19T22:04:37.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="be1SDpDoV82YB4WcnHBs" version="14.8.4" type="github">
+  <diagram id="RrS9KNd53PsVYX24TNLM" name="Page-1">
+    <mxGraphModel dx="2916" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n29KR3bJ3Jj2uVsHmtv6-1" value="&lt;ol&gt;&lt;li&gt;Product Requirements&lt;/li&gt;&lt;li&gt;Technical Requirements&lt;/li&gt;&lt;li&gt;Component Architecture&lt;/li&gt;&lt;li&gt;Data Entities&lt;/li&gt;&lt;li&gt;Data API&lt;/li&gt;&lt;li&gt;Data Store&lt;/li&gt;&lt;li&gt;Optimization/Performance&amp;nbsp;&lt;/li&gt;&lt;li&gt;Accessibility&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-110" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n29KR3bJ3Jj2uVsHmtv6-3" value="&lt;b&gt;Product Requirements&lt;br&gt;&lt;/b&gt;&lt;ol&gt;&lt;li&gt;Infinite scrollable new-feed where user can see stories based on subscriptions&lt;/li&gt;&lt;li&gt;User can post stories which will can include images/videos, comments, links&lt;/li&gt;&lt;li&gt;User can share stories&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="-110" width="460" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
