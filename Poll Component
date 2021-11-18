@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T23:42:20.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="obB9XeIIHfdSDWcVDfKp" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T01:15:48.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="jKDQQj22148PwIYrw2-l" version="15.8.2" type="github">
   <diagram id="sgUI9XHz3IRSRPWI7Xnl" name="Page-1">
     <mxGraphModel dx="1796" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,11 +55,50 @@
         <mxCell id="eIqp-2zIL-aTXFsO1pqa-16" value="Render item" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="610" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIqp-2zIL-aTXFsO1pqa-20" value="Props Design&lt;br&gt;&lt;br&gt;type PollProps = {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;options: Option[];&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;readonly: boolean;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;onVote:&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;renderItem: (datum: Option) =&amp;gt; HTMLElement&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;renderReadItem: (datum: Option) =&amp;gt; HTMLElement&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-20" value="Props Design&lt;br&gt;&lt;br&gt;type PollProps = {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;title: string;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;options: Option[];&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;readonly: boolean;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;onVote: (data: Option) =&amp;gt; void;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;renderItem: (datum: Option) =&amp;gt; HTMLElement&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;renderReadItem: (datum: Option) =&amp;gt; HTMLElement&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="155" y="380" width="315" height="130" as="geometry" />
         </mxCell>
         <mxCell id="eIqp-2zIL-aTXFsO1pqa-21" value="type Option = {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;votes: number;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;order: number;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;name:string;&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="535" width="280" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-22" value="Network&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Poll%20Widget%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dcenter%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22550%22%20y%3D%22100%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eIqp-2zIL-aTXFsO1pqa-23" target="eIqp-2zIL-aTXFsO1pqa-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eIqp-2zIL-aTXFsO1pqa-23" target="eIqp-2zIL-aTXFsO1pqa-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-23" value="Rendering" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-24" value="Javascript" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="810" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-25" value="Minify css / js" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-26" value="Brotli" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-27" value="CDN" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-28" value="DOM" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-29" value="Render the HTML elements just once and then update their text" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-30" value="CSS" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-31" value="CSS naming strategy" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIqp-2zIL-aTXFsO1pqa-32" value="CSS animations" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
